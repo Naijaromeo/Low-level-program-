@@ -2,13 +2,14 @@
 
 int main ( )
 {
- int a = 1000
- int b = 2900
+ int a = 1000;
+ int b = 2900;
 
- int multiplication = a * b
+ int muliplication =  a * b;	
 
-
-  printf("the product of 2 variable a and b is = %d",multipliction);
+ { 
+	 printf("the product of a and b is = %d * %d = %d",a,b,a*b);
+ }
 
   return 0;
   }
